@@ -1,0 +1,61 @@
+/* aqui definimos as import de fonts tudo o que foi usado como font */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{ /* aqui definimos a borda da nossa pag*/
+    margin: 0% ;
+    padding: 0%;
+}
+body {  /* aqui definimos tanto a cor, tamanho, se o conteudo  preencherá  toda a tela */
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:black;
+    color: white;
+    
+}
+.Destaque-das-letras{
+    color: #00ffff;
+}
+
+.apresentacao {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    margin: 10% 15%;
+
+}
+.apresentacao__conteudo {
+    width: 593px;
+    height:144px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.conteudo-titulo-h1 {
+     font-size: 36px;
+     font-family: "Krona One", sans-serif;
+     
+ }
+      
+.conteudo__paragrafo {
+    font-size: 20px;
+    font-family:"Montserrat", sans-serif;
+    font-weight:500;
+}
+
+.apresentacao__links{
+    display: flex;  /* aqui usamos Isso define um contêiner flexível; inline ou bloco dependendo do valor fornecido. Ele permite um contexto flexível para todos os seus filhos diretos*/
+    justify-content: space-between; /* define o alinhamento ao longo do texto*/
+}
+
+.apresentacao__links__botoes{
+    background-color:#00ffff;
+    width: 280px;  /* aqui temos tanto a altura como comprimento*/
+    text-align: center;/* aqui temos o alinhamento do texto*/
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none; /* Aqui vemos a sublinhação de baixo da palavra "instagram" e "github" sumindo pois aquela linha é a decoração*/
+    color: black;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 600;
+}
